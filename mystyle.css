@@ -43,7 +43,15 @@ nav a {
     font-weight: bold;
   }
 
+html{
+  scroll-behavior: smooth;
+}
 
+@media (prefers-reduced-motion:reduce)  {
+  html{
+    scroll-behavior: auto;
+  }
+}
 body{
     color: white;
     background: linear-gradient(to top, #00070f 100%, #3b3b3b 70%);   
@@ -135,7 +143,7 @@ body{
     height: 100%;
     /*Esta propiedad es fundamental para que no se distorsione la foto*/
     object-fit: cover;
-    transition: opacity 0.5s ease, z-index 0s 0.5s; /* transición en opacidad */
+    transition: opacity .4s ease, z-index 0s 0.5s; /* transición en opacidad */
   }
   
   #static-image {
@@ -165,7 +173,7 @@ body{
     color: gray;
     cursor: pointer;
     transition: .3s ;
-
+    font-weight: bold;
   }
 
   #butsim:hover{
