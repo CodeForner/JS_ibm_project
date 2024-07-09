@@ -2,21 +2,28 @@
 
 
 .container{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-grid-template-rows: 1;
-align-items: center;
+display: flex;
+row-gap: 15px;
+justify-content: center;
 }
 
 
 .info{
     display: flex;
-    flex-direction: column;
-    row-gap: 5px;
+    justify-content: space-between;
     padding: 5px;
     color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.personal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
 }
 .intro img {
+  padding: 50px 0 ;
     height: 200px;
     width: 200px;
     border-radius: 100%;
@@ -142,6 +149,7 @@ body{
   
   .simular {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 10px;
   }
