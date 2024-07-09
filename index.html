@@ -2,7 +2,118 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Biografía Javier Santaolalla</title>
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="mystyle.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <section class="info">
+        <div id="name">Eric Garcia</div>
+        <br />
+        <div id="mail">example@gmail.com</div>
+        <br />
+        <div id="tlf">999999999</div>
+        <br />
+      </section>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Projects</a>
+        <a href="#rec">Recommendations</a>
+      </nav>
+    </div>
+    <section class="intro">
+      <img src="Images/eric2.png" alt="" />
+      <h1 id="about">¡Hola, Soy Eric!</h1>
+      <h2>
+        Graduado en Física con interés en la programación, inteligencia
+        artificial y análisis de datos. Estoy motivado para seguir aprendiendo y
+        aplicar mis conocimientos en un entorno laboral.
+      </h2>
+    </section>
+    <section class="skills">
+      <h1 id="skills">Skills</h1>
+      <div class="skills-grid">
+        <figure class="skill">
+          <img src="Images/python.png" alt="Python" style="scale: 0.5" />
+          <figcaption>
+            <div>Python</div>
+            <div>Advanced</div>
+          </figcaption>
+        </figure>
+        <figure class="skill">
+          <img src="Images/fortran.png" alt="Fortran" />
+          <figcaption>
+            <div>Fortran</div>
+            <div>Medium</div>
+          </figcaption>
+        </figure>
+        <figure class="skill">
+          <img src="Images/css.png" alt="CSS" />
+          <figcaption>
+            <div>CSS</div>
+            <div>Beginner</div>
+          </figcaption>
+        </figure>
+        <figure class="skill">
+          <img src="Images/html.png" alt="HTML" />
+          <figcaption>
+            <div>HTML</div>
+            <div>Beginner</div>
+          </figcaption>
+        </figure>
+        <figure class="skill">
+          <img src="Images/latex.png" alt="Latex" />
+          <figcaption>
+            <div>Latex</div>
+            <div>Advanced</div>
+          </figcaption>
+        </figure>
+        <figure class="skill">
+          <img src="Images/excel.png" alt="Excel" />
+          <figcaption>
+            <div>Excel</div>
+            <div>Advanced</div>
+          </figcaption>
+        </figure>
+        <figure class="skill">
+          <img src="Images/pptx.png" alt="PPTX" />
+          <figcaption>
+            <div>PPTX</div>
+            <div>Advanced</div>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <h1 id="project" class="projects">Projects</h1>
+    <section class="project">
+      <div id="benigar">
+        <img src="Images/api.png" alt="api automation" />
+        <figcaption>
+          Automatización de APIs y estructuración de datos. Corporación Benigar.
+        </figcaption>
+      </div>
+      <div id="olas">
+        <div class="image-container">
+          <img
+            id="static-image"
+            src="Images/inicio.png"
+            alt="simulacion 3D olas"
+          />
+          <img
+            id="gif-image"
+            src="Images/dosrectsdos.gif"
+            alt="simulacion 3D olas"
+          />
+        </div>
+        <div class="simular">
+          <figcaption>Simulación 3D oleaje.</figcaption>
+          <button id="butsim">Simular</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="simulation.js"></script>
+  </body>
 </html>
