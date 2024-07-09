@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="mystyle.css" />
   </head>
   <body>
-    <div class="container">
+    <div id="h" class="container">
       <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -22,7 +22,7 @@
           <br />
           <div id="mail">example@gmail.com</div>
           <br />
-          <div id="tlf">999999999</div>
+          <div id="tlf">+34 999999999</div>
           <br />
         </div>
       </section>
@@ -120,7 +120,7 @@
 
     <script src="simulation.js"></script>
 
-    <h1 id="rec" style="text-align: center">Reccomendations</h1>
+    <h1 id="rec" style="text-align: center">Recommendations</h1>
     <section class="reco">
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa
@@ -150,5 +150,23 @@
         <span class="author">Author: Alex Johnson</span>
       </div>
     </section>
+    <div class="home">
+      <a id="home" href="#h"><img src="Images/home.png" alt="" /></a>
+    </div>
+    <h3
+      style="text-align: center; font-size: xx-large; padding: 10px 0px 0px 0px"
+    >
+      Please, leave a recommendation!
+    </h3>
+    <fieldset class="field">
+      <div class="inputbox small">
+        <input type="text" id="name" placeholder="Name" />
+        <br />
+      </div>
+      <div class="inputbox large">
+        <textarea id="message" placeholder="Message (optional)"></textarea>
+      </div>
+      <button>Submit</button>
+    </fieldset>
   </body>
 </html>
