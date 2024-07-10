@@ -25,10 +25,11 @@ justify-content: center;
   flex-direction: column;
   justify-content: center;
   align-items: end;
+  padding: 25px 0 0 0;
   
 }
 .intro img {
-     padding: 50px 0 ;
+     padding: 30px 0 40px;
     height: 200px;
     width: 200px;
     border-radius: 100%;
@@ -53,9 +54,11 @@ nav a {
     padding: 5px;
   }
   nav a:hover{
-    color: white;
+    color: #09f;
     outline: 3px solid #09f  ;
     border-radius: 10px;
+    
+    
 
   }
 html{
@@ -83,42 +86,64 @@ body{
     padding: 0 15% 0 15%;
 }
 
-
 .skills {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
-    gap: 20px;
-    max-width: 900px;
-    margin: 0 auto;
-    
-  }
-  
-  .skill {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
-  }
-  
-  .skill img {
-    width: 100px; 
-    height: 100px; 
-    object-fit: cover; 
-  }
-  
-  .skill figcaption {
-    margin-top: 10px;
-    font-weight: bold;
-  }
-  
-  .skill figcaption div {
-    margin-top: 5px;
-  }
+  text-align: center;
+  padding: 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill img {
+  width: 100px; 
+  height: 100px; 
+  object-fit: cover; 
+}
+
+.skill figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.skill figcaption div {
+  margin-top: 5px;
+}
+
+.language {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+}
+
+.expertise {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.expertise.adv {
+  color: green;
+}
+
+.expertise.med {
+  color: orange;
+}
+
+.expertise.beg {
+  color: red;
+}
+
   .projects {
     text-align: center;
     padding: 20px;
@@ -150,7 +175,7 @@ body{
   
   .project figcaption {
     text-align: center;
-    margin: 5px;
+    margin: 10px;
   }
   
   .image-container {
