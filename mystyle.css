@@ -219,7 +219,7 @@ body{
 }
 
 .reco div {
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 5px;
     position: relative; 
 }
@@ -227,7 +227,7 @@ body{
   .author {
     position: absolute;
     bottom: -36px; 
-    left: -1.5px; 
+    left: -2px; 
     font-size: large;
     font-weight: bolder;
     color: white;
