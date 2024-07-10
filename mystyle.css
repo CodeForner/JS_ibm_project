@@ -213,18 +213,16 @@ body{
 
   .reco {
     display: grid;
-    padding: 0 20% 0 20%;
-    grid-template-rows: repeat(3, minmax(100px, 1fr));
+    padding: 0 20%;
     row-gap: 45px;
     font-size: large;
-  }
-  
-  .reco div {
+}
+
+.reco div {
     border: 1px solid white;
-    padding: 5px 5px 5px 5px;
+    padding: 5px;
     position: relative; 
-  
-  }
+}
   
   .author {
     position: absolute;
