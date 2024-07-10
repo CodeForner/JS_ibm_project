@@ -31,4 +31,8 @@ button.addEventListener('click', function() {
   }
 });
 
+const submit = document.getElementById('submit');
 
+submit.addEventListener('click', function() {
+  window.alert("You have submitted a recommendation!");
+});

@@ -80,7 +80,7 @@ body{
 
 }
 .intro {
-    padding: 0 20% 0 20%;
+    padding: 0 15% 0 15%;
 }
 
 
@@ -206,7 +206,7 @@ body{
     display: grid;
     padding: 0 20% 0 20%;
     grid-template-rows: repeat(3, minmax(100px, 1fr));
-    row-gap: 40px;
+    row-gap: 45px;
     font-size: larger;
   }
   
@@ -219,14 +219,13 @@ body{
   
   .author {
     position: absolute;
-    bottom: -28px; 
-    left: 0.001px; 
+    bottom: -33px; 
+    left: -1.5px; 
     font-size: large;
     font-weight: bolder;
     color: white;
-    border: 2px solid #09f;
-    border-radius: 5px;
-    padding: 0px 0px 0px 5px;
+    border: 3px solid #09f;
+    padding: 3px;
   }
 
   .home {
