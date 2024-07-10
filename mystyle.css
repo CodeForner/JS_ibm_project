@@ -216,7 +216,7 @@ body{
     padding: 0 20% 0 20%;
     grid-template-rows: repeat(3, minmax(100px, 1fr));
     row-gap: 45px;
-    font-size: larger;
+    font-size: large;
   }
   
   .reco div {
@@ -228,7 +228,7 @@ body{
   
   .author {
     position: absolute;
-    bottom: -33px; 
+    bottom: -36px; 
     left: -1.5px; 
     font-size: large;
     font-weight: bolder;
